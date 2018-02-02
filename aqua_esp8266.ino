@@ -71,8 +71,8 @@ void sendNTPpacket(IPAddress &address);
 //IPAddress timeServer(129, 6, 15, 28); // time.nist.gov NTP server
 IPAddress timeServer(188, 227, 227, 31);
 
-const char ssid[] = "Namai40";
-const char pass[] = "Zygios5505";
+const char ssid[] = "xxx";
+const char pass[] = "xxx";
 
 WiFiUDP Udp;
 unsigned int localPort = 3232;  // Local port to listen for UDP packets
